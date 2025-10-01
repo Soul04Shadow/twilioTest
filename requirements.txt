@@ -3,6 +3,7 @@ fastapi
 uvicorn
 python-dotenv
 loguru
-google-generativeai~=0.8.3
+google-genai>=1.0.0
+google-cloud-speech>=2.26.0
 twilio
 boto3
