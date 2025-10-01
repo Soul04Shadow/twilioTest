@@ -24,6 +24,8 @@ This project is a FastAPI-based chatbot that integrates with Twilio to handle We
 - Docker (for containerized deployment)
 - ngrok (for tunneling)
 - Twilio Account
+- Google Gemini API key (set `GOOGLE_API_KEY`)
+- Optional: AWS Bedrock credentials if you plan to use the payment knowledge base tool
 
 ## Installation
 
@@ -114,5 +116,5 @@ To start a call, simply make a call to your configured Twilio phone number. The 
 
 ## Note
 
-This is a demo version based off examples from pipecat 
+This is a demo version based off examples from pipecat.
 https://github.com/pipecat-ai/pipecat/tree/main/examples
